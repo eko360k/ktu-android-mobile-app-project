@@ -22,56 +22,7 @@ By participating in this project, students will learn how to:
 
 ---
 
-## Repository Structure
-
-⚠️ The Android Studio project is **not provided** in this repository. Each student is required to create their own Android Studio project after cloning the repository and creating their personal branch.
-
-Your repository structure should look similar to the following after creating your project:
-
-```text
-ktu-android-mobile-app-project/
-├── YourProjectName/
-│   ├── app/
-│   │   ├── manifests/
-│   │   ├── kotlin+java/
-│   │   │   ├── com.example.yourproject
-│   │   │   │   └── MainActivity.java
-│   │   │   ├── com.example.yourproject (androidTest)
-│   │   │   └── com.example.yourproject (test)
-│   │   ├── res/
-│   │   └── build.gradle
-│   ├── gradle/
-│   ├── Gradle Scripts/
-│   ├── build.gradle
-│   ├── settings.gradle
-│   ├── gradlew
-│   └── gradlew.bat
-├── screenshots/
-│   ├── Screenshot_B202230015.png
-│   └── Screenshot_B202230015_2.png
-└── README.md
-```
-
-### Important Notes
-
-- `YourProjectName` should be replaced with the name of your Android application project.
-- The Android Studio project **must be created inside the cloned repository folder**.
-- Do not create the Android Studio project outside the repository and then upload it later.
-
-
-## Assignment Workflow
-
-Each assignment will build upon the same Android project.
-
-### Assignment 1
-
-* Create project structure.
-* Design an Android app.
-* Implement basic navigation including linear and horizontal scrollable layouts.
-
----
-
-## Student Participation Guide
+## Student Assignment Guide
 
 ### Step 1: Fork the Repository
 
@@ -127,18 +78,17 @@ Expected output:
 
 Each student must create a **branch using their Student ID** before starting any development.
 
-Example (Student ID: B202230015):
+Example (Student ID: B202230014):
 
 ```bash
-git checkout -b B202230015
+git checkout -b B202230014
 ```
 
 Push the branch to GitHub:
 
 ```bash
-git push -u origin B202230015
+git push -u origin B202230014
 ```
-
 ---
 
 ### Branch Rules
@@ -150,16 +100,7 @@ git push -u origin B202230015
 
 ---
 
-### Step 4: Open in Android Studio
-
-1. Launch Android Studio.
-2. Select **Open Project**.
-3. Choose the cloned repository folder.
-4. Allow Gradle to synchronize.
-
----
-
-## Step 5: Create Android Studio Project (IMPORTANT STEP)
+## Step 4: Create Android Studio Project (IMPORTANT STEP)
 
 After cloning and switching to your branch:
 
@@ -175,6 +116,7 @@ After cloning and switching to your branch:
 4. Configure:
 
    * Name your project (e.g. `MyMobileApp`)
+   * Choose the cloned repository folder.
    * Language: **Java**
    * Minimum SDK:
 
@@ -186,19 +128,71 @@ After cloning and switching to your branch:
 
 ---
 
-### IMPORTANT RULE:
+## Repository Structure
 
-👉 When Android Studio asks for project location, select:
+⚠️ The Android Studio project is **not provided** in this repository. Each student is required to create their own Android Studio project after cloning the repository and creating their personal branch.
+
+⚠️ The Android Studio project must be created directly in the root of the cloned repository after creating your personal branch.
+
+Your repository structure should look similar to the following after creating your project::
 
 ```text
-ktu-android-mobile-app-project/YourAndroidProject/
+ktu-android-mobile-app-project/
+│
+├── .git/
+├── .gradle/
+├── .idea/
+│
+├── app/
+│   ├── manifests/
+│   │   └── AndroidManifest.xml
+│   │
+│   ├── kotlin+java/
+│   │   ├── com.example.yourproject
+│   │   │   └── MainActivity.java
+│   │   │
+│   │   ├── com.example.yourproject (androidTest)
+│   │   │   └── ExampleInstrumentedTest.java
+│   │   │
+│   │   └── com.example.yourproject (test)
+│   │       └── ExampleUnitTest.java
+│   │
+│   └── res/
+│       ├── drawable/
+│       ├── layout/
+│       ├── mipmap/
+│       └── values/
+│
+├── gradle/
+├── screenshots/
+│   └── Screenshot_B202230015.png
+│
+├── .gitignore
+├── build.gradle.kts
+├── gradle.properties
+├── gradlew
+├── gradlew.bat
+├── settings.gradle.kts
+└── README.md
 ```
 
-This ensures your Android project is stored inside the Git repository.
+### Important Notes
+
+- The Android Studio project must be created directly inside the cloned repository folder.
+- Do NOT create another folder such as `MyProject/` inside the repository.
+- When creating the project in Android Studio, select the cloned repository folder as the project location.
+- Use **Java** as the programming language.
+- Use **Empty Views Activity** as the project template.
+- Use **API 24 (Nougat - Android 7.0)** as the minimum SDK.
+- Wait for Gradle synchronization to complete before making any changes.
+
+## Assignment Workflow
+
+Each assignment will build upon the same Android project.
 
 ---
 
-### Step 6: Develop Your Application
+### Step 5: Develop Your Application
 
 Implement the assignment requirements within your personal branch.
 
@@ -237,7 +231,7 @@ screenshots/
 Include at least:
 
 ```text
-Screenshot_B202230014.png
+Screenshot_B202230014.png  (update with your actual index)
 ```
 
 The screenshot must clearly show the application's main screen.
