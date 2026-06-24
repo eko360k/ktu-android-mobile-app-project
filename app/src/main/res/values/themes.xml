@@ -1,0 +1,40 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.MyFirstApp" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="android:fontFamily">@font/outfit</item>
+        <item name="fontFamily">@font/outfit</item>
+
+        <item name="colorSurfaceContainer">@color/soft_white</item>
+
+        <item name="colorPrimary">@color/blue_medium_dark</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorPrimaryContainer">@color/blue_pastel</item>
+        <item name="colorOnPrimaryContainer">@color/blue_night</item>
+
+        <item name="colorSecondary">@color/blue_medium</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <item name="colorSecondaryContainer">@color/blue_light</item>
+        <item name="colorOnSecondaryContainer">@color/blue_night</item>
+
+        <item name="colorTertiary">@color/coral_red</item>
+        <item name="colorOnTertiary">@color/white</item>
+        <item name="colorTertiaryContainer">@color/orange_warm</item>
+        <item name="colorOnTertiaryContainer">@color/blue_night</item>
+
+        <item name="android:windowBackground">@color/soft_white</item>
+        <item name="android:statusBarColor">@color/soft_white</item>
+        <item name="android:windowLightStatusBar">true</item>
+
+        <item name="colorSurface">@color/soft_white</item>
+        <item name="colorOnBackground">@color/slate_dark</item>
+        <item name="colorOnSurface">@color/slate_dark</item>
+        <item name="colorOnSurfaceVariant">@color/slate_medium_dark</item>
+        <item name="colorOutline">@color/slate_medium_light</item>
+
+        <item name="colorError">@color/red_crimson</item>
+        <item name="colorOnError">@color/white</item>
+    </style>
+
+    <style name="Theme.MyFirstApp" parent="Base.Theme.MyFirstApp" />
+</resources>

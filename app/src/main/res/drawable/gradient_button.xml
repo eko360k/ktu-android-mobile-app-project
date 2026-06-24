@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+  Gradient background drawable for premium action buttons.
+  Features a smooth linear gradient using the theme's slate/blue tones
+  and rounded corners for a modern, high-end look.
+-->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    
+    <!-- Linear gradient starting from dark blue to medium/light blue -->
+    <gradient
+        android:angle="45"
+        android:startColor="@color/blue_medium_dark"
+        android:endColor="@color/blue_light"
+        android:type="linear"/>
+        
+    <!-- Rounded corners to match Material 3 design card styles -->
+    <corners android:radius="24dp"/>
+</shape>

@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">My First App</string>
+    <!-- Navigation and bottom bar titles -->
+    <string name="home">Home</string>
+    <string name="search">Search</string>
+    <string name="filter">Filter</string>
+    <string name="more_options">More options</string>
+    <!-- Toolbar title for the main layout -->
+    <string name="title_lib">Library</string>
+    <string name="updates">Updates</string>
+    <string name="history">History</string>
+    <string name="browse">Browse</string>
+    <string name="more_settings">More</string>
+    <!-- Call-to-action button for exploring more content -->
+    <string name="explore_more">Explore More</string>
+</resources>

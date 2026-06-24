@@ -1,0 +1,38 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.MyFirstApp" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your dark theme here. -->
+        <item name="android:fontFamily">@font/outfit</item>
+        <item name="fontFamily">@font/outfit</item>
+
+        <item name="colorSurfaceContainer">@color/blue_dark</item>
+
+        <item name="colorPrimary">@color/blue_light</item>
+        <item name="colorOnPrimary">@color/blue_night</item>
+        <item name="colorPrimaryContainer">@color/blue_dark</item>
+        <item name="colorOnPrimaryContainer">@color/blue_pastel</item>
+
+        <item name="colorSecondary">@color/blue_medium</item>
+        <item name="colorOnSecondary">@color/blue_night</item>
+        <item name="colorSecondaryContainer">@color/blue_dark</item>
+        <item name="colorOnSecondaryContainer">@color/blue_pastel</item>
+
+        <item name="colorTertiary">@color/orange_warm</item>
+        <item name="colorOnTertiary">@color/blue_night</item>
+        <item name="colorTertiaryContainer">@color/coral_red</item>
+        <item name="colorOnTertiaryContainer">@color/white</item>
+
+        <item name="android:windowBackground">@color/blue_night</item>
+        <item name="android:statusBarColor">@color/blue_night</item>
+        <item name="android:windowLightStatusBar">false</item>
+
+        <item name="colorSurface">@color/blue_dark</item>
+        <item name="colorOnBackground">@color/blue_pastel</item>
+        <item name="colorOnSurface">@color/blue_pastel</item>
+        <item name="colorOnSurfaceVariant">@color/slate_light</item>
+        <item name="colorOutline">@color/slate_medium_light</item>
+
+        <item name="colorError">@color/red_crimson</item>
+        <item name="colorOnError">@color/white</item>
+    </style>
+</resources>

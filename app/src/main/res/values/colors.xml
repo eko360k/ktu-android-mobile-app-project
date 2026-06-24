@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="soft_white">#F5F7FA</color>
+    <!-- Blue Palette (Main App Colors) -->
+    <color name="blue_night">#172038</color>
+    <color name="blue_dark">#253a5e</color>
+    <color name="blue_medium_dark">#3c5e8b</color>
+    <color name="blue_medium">#4f8fba</color>
+    <color name="blue_light">#73bed3</color>
+    <color name="blue_pastel">#a4dddb</color>
+
+    <!-- Green Palette (Supporting) -->
+    <color name="green_forest">#468232</color>
+    <color name="green_light">#75a743</color>
+
+    <!-- Orange & Red Palette (Supporting) -->
+    <color name="orange_warm">#da863e</color>
+    <color name="coral_red">#cf573c</color>
+    <color name="red_crimson">#a53030</color>
+    <color name="maroon_dark">#752438</color>
+
+    <!-- Purple & Pink Palette (Supporting) -->
+    <color name="purple_dark">#7a367b</color>
+    <color name="purple_medium">#a23e8c</color>
+    <color name="pink_rose">#c65197</color>
+
+    <!-- Slate & Gray-Green Palette (Supporting) -->
+    <color name="slate_dark">#394a50</color>
+    <color name="slate_medium_dark">#577277</color>
+    <color name="slate_medium_light">#819796</color>
+    <color name="slate_light">#a8b5b2</color>
+</resources>
