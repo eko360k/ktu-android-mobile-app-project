@@ -5,6 +5,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 import android.widget.Toast;
+import android.widget.ImageView;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
@@ -44,6 +45,7 @@ public class ContactAdapter
         holder.txtName.setText(contact.getName());
         holder.txtMessage.setText(contact.getMessage());
         holder.txtTime.setText(contact.getTime());
+        holder.imgAvatar.setImageResource(contact.getImage());
 
         holder.itemView.setOnClickListener(v ->
                 Toast.makeText(
@@ -51,6 +53,7 @@ public class ContactAdapter
                         "Opening chat with "
                                 + contact.getName(),
                         Toast.LENGTH_SHORT).show());
+
     }
 
     @Override
@@ -64,6 +67,7 @@ public class ContactAdapter
         TextView txtName;
         TextView txtMessage;
         TextView txtTime;
+        ImageView imgAvatar;
 
         public ContactViewHolder(
                 @NonNull View itemView) {
@@ -73,6 +77,7 @@ public class ContactAdapter
             txtName = itemView.findViewById(R.id.txtName);
             txtMessage = itemView.findViewById(R.id.txtLastMessage);
             txtTime = itemView.findViewById(R.id.txtTime);
+            imgAvatar = itemView.findViewById(R.id.imgAvatar);
         }
     }
 }

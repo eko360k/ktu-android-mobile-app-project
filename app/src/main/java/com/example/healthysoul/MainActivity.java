@@ -27,52 +27,74 @@ public class MainActivity extends AppCompatActivity {
         contactList.add(new Contact(
                 "John Doe",
                 "Hey, are we meeting today?",
-                "10:30 AM"));
+                "10:30 AM",
+                R.drawable.avartar1));
 
         contactList.add(new Contact(
                 "Ama Mensah",
                 "Thank you very much.",
-                "10:15 AM"));
+                "10:15 AM",
+                R.drawable.avartar2));
 
         contactList.add(new Contact(
                 "Kwame Asante",
                 "See you tomorrow.",
-                "09:45 AM"));
+                "09:45 AM",
+                R.drawable.avartar3));
 
         contactList.add(new Contact(
                 "Sarah Wilson",
                 "Call me when free.",
-                "09:20 AM"));
+                "09:20 AM",
+                R.drawable.avartar4));
 
         contactList.add(new Contact(
                 "Michael Brown",
                 "Let's finish the project.",
-                "Yesterday"));
+                "Yesterday",
+                R.drawable.avartar5));
 
         contactList.add(new Contact(
                 "Grace Boateng",
-                "Meeting starts at 2pm.",
-                "Yesterday"));
+                "Meeting starts at 2 PM.",
+                "Yesterday",
+                R.drawable.avartar6));
 
         contactList.add(new Contact(
                 "David Owusu",
                 "Check your email.",
-                "Monday"));
+                "Monday",
+                R.drawable.avartar7));
 
         contactList.add(new Contact(
                 "Esther Mensima",
                 "Thanks!",
-                "Sunday"));
+                "Sunday",
+                R.drawable.avartar8));
 
         contactList.add(new Contact(
                 "James Anderson",
                 "I'll be there soon.",
-                "Saturday"));
+                "Saturday",
+                R.drawable.avartar9));
 
         contactList.add(new Contact(
                 "Linda Smith",
                 "Good morning.",
-                "Friday"));
+                "Friday",
+                R.drawable.avartar10));
+
+        contactList.add(new Contact(
+                "Daniel Mensah",
+                "Can we reschedule?",
+                "Thursday",
+                R.drawable.avartar11));
+
+        contactList.add(new Contact(
+                "Patricia Johnson",
+                "The report is ready.",
+                "Wednesday",
+                R.drawable.avartar12));
 
         adapter = new ContactAdapter(contactList);
 
