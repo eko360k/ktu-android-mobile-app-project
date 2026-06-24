@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">AccountProfile</string>
+    <string name="logo">Logo</string>
+    <string name="myName">Eliphaz Larbie</string>
+    <string name="title">Title: Data Analyst</string>
+    <string name="textview">TextView</string>
+</resources>
