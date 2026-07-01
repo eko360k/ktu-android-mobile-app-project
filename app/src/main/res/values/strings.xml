@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Jumiah</string>
+    <string name="search_hint">Search on Jumia</string>
+    <string name="flash_sales">Flash Sales</string>
+    <string name="flash_sales_timer">TIME LEFT: 06h : 49m : 39s</string>
+    <string name="see_all">See All ></string>
+    <string name="half_price_store">Half Price Store</string>
+    <string name="send_packages">Send Packages</string>
+    <string name="call_to_order">Call to Order</string>
+    <string name="make_extra_cash">Make Extra Cash</string>
+    <string name="sponsored_products">Sponsored Products</string>
+    <string name="nav_home">Home</string>
+    <string name="nav_categories">Categories</string>
+    <string name="nav_cart">Cart</string>
+    <string name="nav_wishlist">Wishlist</string>
+    <string name="nav_account">Account</string>
+    <string name="promo_half_price">Half Price Store</string>
+    <string name="promo_free_delivery">Free Delivery</string>
+    <string name="promo_call_now">Call Now</string>
+    <string name="promo_jforce">JForce</string>
+    <string name="search_icon_desc">Search Icon</string>
+    <string name="flash_sales_icon_desc">Flash Sales Icon</string>
+</resources>
