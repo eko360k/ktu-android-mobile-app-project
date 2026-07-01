@@ -24,7 +24,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:background="#EEEEEE"
-                android:scaleType="centerCrop" />
+                android:scaleType="centerCrop"
+                android:contentDescription="@null" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -32,9 +33,9 @@
                 android:layout_margin="4dp"
                 android:background="@color/discount_bg"
                 android:padding="2dp"
-                android:text="-39%"
+                android:text="@string/discount_39_placeholder"
                 android:textColor="@color/discount_text"
-                android:textSize="10sp"
+                android:textSize="11sp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
         </androidx.constraintlayout.widget.ConstraintLayout>
@@ -46,7 +47,7 @@
             android:layout_marginTop="8dp"
             android:ellipsize="end"
             android:maxLines="2"
-            android:text="Product title"
+            android:text="@string/product_name_placeholder"
             android:textColor="@color/black"
             android:textSize="13sp" />
 
@@ -54,7 +55,7 @@
             android:id="@+id/product_price"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="GH₵ 0"
+            android:text="@string/price_placeholder"
             android:textColor="@color/black"
             android:textSize="15sp"
             android:textStyle="bold" />
@@ -63,7 +64,7 @@
             android:id="@+id/old_price"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="GH₵ 113"
+            android:text="@string/old_price_placeholder"
             android:textColor="@color/text_gray"
             android:textSize="11sp"
             android:visibility="visible" />
