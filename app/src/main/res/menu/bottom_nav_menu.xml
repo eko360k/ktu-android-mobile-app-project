@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="@string/chats"
+        android:icon="@drawable/chats"
+        android:id="@+id/chats"
+        android:textColor="?android:attr/textColorPrimary"/>
+    <item android:title="@string/updates"
+        android:icon="@drawable/update"
+        android:id="@+id/updates"
+        android:textColor="?android:attr/textColorPrimary"/>
+    <item android:title="@string/communities"
+        android:icon="@drawable/communities"
+        android:id="@+id/communities"
+        android:textColor="?android:attr/textColorPrimary"/>
+    <item android:title="@string/calls"
+        android:icon="@drawable/calls"
+        android:id="@+id/calls"
+        android:textColor="?android:attr/textColorPrimary"/>
+</menu>

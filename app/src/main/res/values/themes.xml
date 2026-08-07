@@ -1,0 +1,36 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.MyMobileApp" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- FIX 1: Set the Primary color to WhatsApp Green (instead of Purple) -->
+        <item name="colorPrimary">@color/dark_green</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondaryContainer">#DCF8C6</item>
+
+        <!-- This is the dark Teal Green for text/icons -->
+        <item name="colorOnSecondaryContainer">#128C7E</item>
+
+        <!-- This is a light grey background for buttons -->
+        <item name="colorPrimaryContainer">#E0E0E0</item>
+
+        <!-- This is the bright Brand Green for text/icons -->
+        <item name="colorOnPrimaryContainer">#23BA69</item>
+
+
+        <!-- FIX 2: Remove the purple "Tonal Tint" from backgrounds -->
+        <!-- We point Surface and Background to the system's neutral colors -->
+        <item name="android:windowBackground">?android:attr/colorBackground</item>
+        <item name="colorSurface">?android:attr/colorBackground</item>
+
+        <!-- Nav Bar/Card color -->
+        <item name="colorSurfaceVariant">#FFFFFF</item>
+
+        <!-- FIX 3: Remove elevation tint (The Purple Killer) -->
+        <!-- This prevents surfaces from turning purple when they are "elevated" -->
+        <item name="enforceMaterialTheme">false</item>
+
+    </style>
+
+
+
+    <style name="Theme.MyMobileApp" parent="Base.Theme.MyMobileApp" />
+</resources>

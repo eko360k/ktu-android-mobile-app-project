@@ -1,0 +1,29 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.MyMobileApp" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- WhatsApp Green -->
+        <item name="colorPrimary">#25D366</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+
+        <!-- WhatsApp Dark Background -->
+        <item name="android:windowBackground">#111B21</item>
+        <!--        <item name="colorSurface">#111B21</item>-->
+
+        <!-- This is the bright Brand Green for text/icons -->
+        <item name="colorOnPrimaryContainer">#23BA69</item>
+        <item name="colorSecondaryContainer">@color/dark_green</item>
+
+
+        <!-- Nav Bar/Card color -->
+        <item name="colorSurfaceVariant">#111B21</item>
+
+        <!-- Text Colors -->
+        <item name="colorOnSurface">#E9EDEF</item>
+        <item name="android:textColorPrimary">#E9EDEF</item>
+
+        <!-- Required to prevent crash on some devices -->
+
+        <item name="colorSecondary">#00A884</item>
+    </style>
+
+</resources>

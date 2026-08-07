@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Booger_Stats</string>
+    <string name="updates_page">Updates</string>
+    <string name="status_scroller">Status</string>
+    <string name="channels_scroller">Channels</string>
+    <string name="button">Click</string>
+    <string name="chats">Chats</string>
+    <string name="communities">Communities</string>
+    <string name="calls">Calls</string>
+    <string name="updates">Updates</string>
+    <string name="explore">Explore</string>
+    <string name="stat">Type a status</string>
+    <string name="video">Video</string>
+    <string name="text">Text</string>
+    <string name="voice">Voice</string>
+    <string name="photo">Photo</string>
+    <string name="findChannels">Find channels to follow</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="edit_button">edit_button</string>
+    <string name="upload_stat_btn">upload_stat_btn</string>
+    <string name="explore_more">Explore more</string>
+    <string name="create_channel">Create channel</string>
+    <string name="options_btn">options_btn</string>
+    <string name="search_btn">search_btn</string>
+
+</resources>
